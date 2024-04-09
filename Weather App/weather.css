@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    /* height: 100vh; */
+    background: rgb(83, 81, 81);
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');}
+
+
+.card{
+    background: #252525d0;
+    color: white;
+    padding: 2em;
+    border-radius: 36px;
+    width: 100%;
+    max-width: 360px;
+    height: 410px;
+    align-items: center;
+}
+
+button{
+    border-radius: 50%;
+    height: 2.2em;
+    width: 2.2em;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    background: rgb(236, 234, 234);
+}
+
+.weather-loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather-loading{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+}
+
+input.search-bar{
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: rgb(241, 241, 241);
+    font-size: 17px;
+    margin-bottom: 1.5em;
+    padding: 10px;
+    width: 250px;
+}
+
+input.search-bar:hover{
+    background: #eac7c7d0;
+}
+
+button:hover{
+    background: #e8cbcbd0;
+}
+
+h1{
+    margin-bottom: -8px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+span{
+    font-size: 28px;
+}
+
+.temp{
+    font-size: 26px;
+    margin-top: 13px;
+    font-weight: 500;
+}
+
+.description{
+    margin-top: 5px;
+    margin-bottom: -17px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.desc{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    height: 45px;
+    margin-top: 16px;
+}
+.date{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.humidity, .wind-speed{
+    font-size: 20px;
+}
