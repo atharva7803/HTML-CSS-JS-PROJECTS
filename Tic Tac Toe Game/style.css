@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(223,222,241);
+    background: linear-gradient(90deg, rgb(187, 184, 234) 0%, rgb(132, 132, 193) 31%, rgba(0,117,255,1) 100%);
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    margin-top: -20px;
+}
+
+.game{
+    height: 55vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #8789dd;
+    background-image: linear-gradient(19deg, #536bd4 0%, #dccfe3 100%);
+    border-radius: 10%;
+    box-shadow: inset -1px -1px 1px rgba(255,255,255,.1),  
+                inset 1px 1px 1px rgba(0,0,0,.1),  
+                1px 1px 2px rgba(0,0,0,.2);
+    font-size: 30px;
+    line-height: 1.2;
+    cursor: pointer;
+    color: black;
+}
+
+.box:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .2) 0 3px 5px, rgba(0, 0, 0, .2) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+#rs{
+    background-image: linear-gradient(to right, #554dce 0%, #c2b7ee 100%);
+    padding: 17px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: .5s;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600; 
+}
+
+
+
+.rs {
+  background-color: #0026d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  outline: 0;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.rs:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.rs:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .rs {
+    padding: 16px 48px;
+  }
+}
+
+
+#msg{
+  color: rgb(222, 190, 190);
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.hide{
+  display: none;
+}
