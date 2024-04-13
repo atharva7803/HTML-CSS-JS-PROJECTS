@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*  Navbar  */
+
+nav img{
+    margin: 10px 200px 0 200px;
+    width: 35px;
+    height: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 70px 0 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav button{
+    background: #303033;
+    color: rgb(240, 231, 231);
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #000000b0, -2px -2px 2px rgba(192, 188, 188, 0.85);
+}
+
+
+/*  Main Body  */
+
+.mainImage{
+    position: relative;
+    top: -240px;
+    left: 280px;
+}
+
+main { 
+    display: flex;
+}
+
+.main{
+    margin: 65px 80px 0 370px;
+}
+
+.main img{
+    height: 72px;
+}
+
+.main h1{
+    margin: 17px 0 23px 0;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.main h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 15px;
+    color: #c7c6c6;
+}
+
+.bag {
+    display: flex;
+    background: #252527;
+    margin-top: 30px;
+    padding: 13px 18px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.bag img{
+    height: 20px;
+    padding: 0 20px 0 7px;
+}
+
+.bag span{
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* Apps Logo  */
+
+.appslogo{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 80px;
+    margin-top: -115px;
+}
+
+
+/* Specification part  */
+
+.specs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sp{
+    margin: 110px 0 70px 0;
+}
+
+.specs-items {
+    display: flex;
+    gap: 95px;
+}
+
+.features div{
+    padding:14px 0 14px 0;
+}
+
+.features h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.features p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.charger ,.battery {
+    margin-left: -60px;
+}
+
+
+/*  Case Part  */
+
+
+.casepart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cs {
+    margin: 130px 0 70px 0;
+}
+
+.case{
+    display: flex;
+}
+
+.description{
+    margin: 110px 0 0 80px;
+    color: #c7c6c6;
+}
+
+.info{
+    display: flex;
+    background: #252527;
+    margin-top: 30px;
+    padding: 15px 30px;
+    margin-right: 100px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+/*  Buy Now Part  */
+
+.buynow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #252527;
+    border-radius: 10px;
+    margin: 130px 150px 70px 150px;
+    padding: 50px 80px;
+    gap: 80px;
+}
+
+.buy{
+    display: flex;
+    background: #000000;
+    color: rgb(218, 218, 212);
+    margin-top: 30px;
+    padding: 15px 30px;
+    margin-right: 100px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+/*  Choose Part  */
+
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cys{
+    height: 120px;
+    margin: 50px 0 90px 0;
+}
+
+.options-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+}
+
+.options {
+    background: #252527;
+    height: 172px;
+    width: 155px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.options-img{
+    height: 130px;
+    width: 100px;
+    margin: -50px 20px 0px 25px;
+}
+
+.item-name{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 7px 15px;
+    position: absolute;
+}
+
+.item-name h4{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.item-name span{
+    font-size: 15px;
+    color: #d1d2d3;
+}
+
+/*.bg{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    border-radius: 6px;
+    padding: 4px;
+    padding-left: 10px;
+    margin: 3px;
+    margin-right: 5px
+}*/
+
+
+/*  Bottom part  */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px 90px 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+.bt{
+    margin-top: -100px;
+    margin-left: 60px;
+}
+
+footer ul h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer ul li{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/*.footer-part div:first-child input{
+    border: none;
+}*/
+
+footer input {
+    display: flex;
+    background: rgb(69, 69, 69);
+    color: white;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.email-button{
+    display: flex;
+    background: rgb(0, 0, 0);
+    color: white;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.icons {
+    gap: 20px;
+    padding: 5px;
+}
